@@ -46,6 +46,6 @@ In this project, I have created a web application which will help predict the pr
 
 ## Novelty
 
-- Nowadays, airline ticket prices can vary dynamically and significantly for the same flight, even for nearby seats within the same cabin. Customers are seeking to get the lowest price while airlines are trying to keep their overall revenue as high as possible and maximize their profit. which can be achieved via this app.
+- Nowadays, airline ticket prices can vary dynamically and significantly for the same flight, even for nearby seats within the same cabin. Customers are seeking to get the lowest price while airlines are trying to keep their overall revenue as high as possible and maximize their profit so to help the customers flight price prediction is necessary.
 - Flight price forecast tools are part of a broader movement towards providing customers with more information in the self-service travel market.
-- The number of people using flights has increased significantly. It is difficult for airlines to maintain prices since prices change dynamically due to different conditions. That’s why we will try to use machine learning to solve this problem. 
+- The number of people using flights has increased significantly and it is difficult for airlines to maintain prices since prices change dynamically due to different conditions so to solve this problem we used machine learning.
