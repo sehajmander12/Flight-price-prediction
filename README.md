@@ -1,41 +1,14 @@
-# Flight Fare Prediction: 
-
-## Table of Content
-  * [Demo](#demo)
-  * [Overview](#overview)
-  * [Motivation](#motivation)
-  * [Installation](#installation)
-  * [Deployement on Heroku](#deployement-on-heroku)
-  * [Directory Tree](#directory-tree)
-  * [Bug / Feature Request](#bug---feature-request)
-  * [Future scope of project](#future-scope)
-
-
-## Demo
-Link: [https://flight-price-prediction-api.herokuapp.com/](https://flight-price-prediction-api.herokuapp.com/)
-
-[![](https://i.imgur.com/R1g2wvC.png)](https://flight-price-prediction-api.herokuapp.com/)
-
-[![](https://i.imgur.com/p0aeL6c.png)](https://flight-price-prediction-api.herokuapp.com/)
+# Flight Price Prediction: 
 
 ## Overview
-This is a Flask web app which predicts fare of Flight ticket.
 
-## Motivation
-What to do when you are at home due to this pandemic situation? I started to learn Machine Learning model to get most out of it. I came to know mathematics behind all supervised models. Finally it is important to work on application (real world application) to actually make a difference.
+In this project, I have created a web application which will help predict the price of flights from one city to another in India. Since a lot of people travel across the country, this application has full potential of being put into proper use.
 
-## Installation
-The Code is written in Python 3.6.10. If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after [cloning](https://www.howtogeek.com/451360/how-to-clone-a-github-repository/) the repository:
-```bash
-pip install -r requirements.txt
-```
+## Live Link : https://flight-price-x.herokuapp.com/
 
-## Deployement on Heroku
-Login or signup in order to create virtual app. You can either connect your github profile or download ctl to manually deploy this project.
+## Methodology Flowchart
 
-[![](https://i.imgur.com/dKmlpqX.png)](https://heroku.com)
-
-Our next step would be to follow the instruction given on [Heroku Documentation](https://devcenter.heroku.com/articles/getting-started-with-python) to deploy a web app.
+![Blank diagram](https://user-images.githubusercontent.com/60060524/138545773-b4a7c2dd-2587-4ac2-bbc4-92e12520b148.jpeg)
 
 ## Directory Tree 
 ```
@@ -51,19 +24,28 @@ Our next step would be to follow the instruction given on [Heroku Documentation]
 ├── requirements.txt
 ```
 
+## I/O Screenshots
+
+![Screenshot (478)](https://user-images.githubusercontent.com/60060524/142762544-a8e4910b-63c0-460c-b42b-61d9f5ff8dea.png)
+<br><br>
+![Screenshot (479)](https://user-images.githubusercontent.com/60060524/142762545-a54f93f7-7ebe-4f08-b85a-aeeb408f7bd0.png)
+
+
 ## Technologies Used
+- GitHub <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+- HTML <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
+- CSS <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
+- JavaScript <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
+- BootStrap <code><img height="30" src="https://github.com/tomchen/stack-icons/raw/master/logos/bootstrap.svg"></code>
+- Flask <code><img height="30" src="https://symbols.getvecta.com/stencil_80/56_flask.3a79b5a056.jpg"></code>
+- Heroku <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg"></code>
 
-![](https://forthebadge.com/images/badges/made-with-python.svg)
+- Numpy <code><img height="30" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg"></code>
+- Matplotlib <code><img height="30" src="https://matplotlib.org/_static/logo2.svg"></code>
+- Scikitlearn <code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/330px-Scikit_learn_logo_small.svg.png"></code>
 
-[<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=170>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=280>](https://gunicorn.org) [<img target="_blank" src="https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png" width=200>](https://scikit-learn.org/stable/) 
+## Novelty
 
-
-## Bug / Feature Request
-
-If you find a bug (the website couldn't handle the query and / or gave undesired results), kindly open an [issue](https://github.com/Mandal-21/Flight-Price-Prediction/issues) here by including your search query and the expected result
-
-## Future Scope
-
-* Use multiple Algorithms
-* Optimize Flask app.py
-* Front-End 
+- Nowadays, airline ticket prices can vary dynamically and significantly for the same flight, even for nearby seats within the same cabin. Customers are seeking to get the lowest price while airlines are trying to keep their overall revenue as high as possible and maximize their profit. which can be achieved via this app.
+- Flight price forecast tools are part of a broader movement towards providing customers with more information in the self-service travel market.
+- The number of people using flights has increased significantly. It is difficult for airlines to maintain prices since prices change dynamically due to different conditions. That’s why we will try to use machine learning to solve this problem. 
